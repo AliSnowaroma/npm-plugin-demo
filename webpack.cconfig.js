@@ -4,8 +4,8 @@ const nodeExternals = require('webpack-node-externals');//如果不想让它把�
 module.exports = {
 	entry:'./src/index.js',
 	output:{
-		filename:'bundle.js',
 		path:path.resolve(__dirname,'dist'),
+		filename: 'bundle.js',
 		libraryTarget:'common2.js',
 	},
 	modules:{
